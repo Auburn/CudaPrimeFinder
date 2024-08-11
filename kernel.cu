@@ -81,7 +81,7 @@ int main()
         std::ifstream file( "./primes" + std::to_string( fileIndex ) + ".txt" );
 #else
     {
-        std::ifstream file( "./top-primes.txt" );
+        std::ifstream file( "./top-percentile-primes.txt" );
 #endif
         std::string line;
         while( std::getline( file, line ) )
